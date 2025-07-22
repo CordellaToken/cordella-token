@@ -1,0 +1,28 @@
+
+Cordella Token ($CRD) - Whitepaper
+
+Panoramica:
+Cordella Token è un token ERC-20 creato per offrire opportunità di staking ad alto rendimento e ricompense guidate dalla community. L'obiettivo è fornire uno strumento finanziario trasparente, sicuro e scalabile sulla blockchain Ethereum.
+
+Tokenomics:
+- Nome Token: Cordella Token
+- Simbolo: CRD
+- Fornitura Totale: 1.000.000.000 CRD
+- Rete: Ethereum Mainnet
+- APY Staking: 180% annuale
+
+Utilità:
+$CRD è progettato principalmente per ricompense di staking e partecipazione alla governance. I possessori potranno votare proposte future e progetti di crescita.
+
+Roadmap:
+- Fase 1: Creazione Token e Deploy del Contratto
+- Fase 2: Lancio Sito e Pre-Sale
+- Fase 3: Listing su DEX e CMC/CG
+- Fase 4: Lancio della piattaforma Staking
+- Fase 5: DAO e Governance
+
+Sicurezza:
+Cordella Token è basato su standard ERC-20 verificati ed è soggetto a controlli della community.
+
+Contatto:
+Sito: https://cordellatoken.github.io/cordella-token/
