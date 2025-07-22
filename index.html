@@ -1,61 +1,101 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Cordella Token - Official Website</title>
-    <style>
-        body {
-            background-color: #ffffff;
-            font-family: Arial, sans-serif;
-            padding: 40px;
-            color: #222;
-        }
-        header {
-            text-align: center;
-            margin-bottom: 40px;
-        }
-        img {
-            max-width: 200px;
-        }
-        .section {
-            margin: 30px 0;
-        }
-        .buttons {
-            margin-top: 20px;
-        }
-        .buttons a {
-            display: inline-block;
-            padding: 10px 20px;
-            background-color: #0055ff;
-            color: white;
-            text-decoration: none;
-            border-radius: 5px;
-            margin: 10px;
-        }
-    </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cordella Token ($CRD)</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: #f5f5f5;
+      color: #222;
+    }
+    header {
+      background: linear-gradient(90deg, #007bff 0%, #00c6ff 100%);
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
+      animation: fadeIn 1s ease-in;
+    }
+    .logo {
+      width: 100px;
+      border-radius: 50%;
+      margin-bottom: 1rem;
+    }
+    main {
+      padding: 2rem;
+      animation: slideUp 1s ease-in-out;
+    }
+    section {
+      margin-bottom: 2rem;
+    }
+    h2 {
+      color: #007bff;
+    }
+    ul {
+      list-style-type: square;
+      padding-left: 1.5rem;
+    }
+    footer {
+      background-color: #222;
+      color: #aaa;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+    }
+    a {
+      color: #007bff;
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    @keyframes slideUp {
+      from { transform: translateY(20px); opacity: 0; }
+      to { transform: translateY(0); opacity: 1; }
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <img src="logo.jpeg" alt="Cordella Token Logo">
-        <h1>Cordella Token ($CRD)</h1>
-        <p>Staking-based token with 180% APY on Ethereum</p>
-    </header>
-    <div class="section">
-        <h2>About the Project</h2>
-        <p>Cordella Token ($CRD) is a high-yield staking token built on the Ethereum blockchain. Designed to reward holders and empower decentralized community governance, $CRD aims to become a reference project for staking enthusiasts.</p>
-    </div>
-    <div class="section">
-        <h2>Tokenomics</h2>
-        <ul>
-            <li>Total Supply: 1,000,000,000 CRD</li>
-            <li>Network: Ethereum</li>
-            <li>Annual Staking Yield: 180%</li>
-        </ul>
-    </div>
-    <div class="section buttons">
-        <a href="CordellaToken_Whitepaper_EN.pdf" target="_blank">Download Whitepaper (EN)</a>
-        <a href="CordellaToken_Whitepaper_IT.txt" target="_blank">Scarica Whitepaper (IT)</a>
-    </div>
+  <header>
+    <img src="logo.jpeg" alt="Cordella Token Logo" class="logo" />
+    <h1>Cordella Token ($CRD)</h1>
+    <p>Empowering passive income through decentralized staking.</p>
+  </header>
+
+  <main>
+    <section class="about">
+      <h2>What is $CRD?</h2>
+      <p>
+        Cordella Token ($CRD) is a secure and scalable ERC-20 token focused on rewarding its holders with an impressive 180% APY through a robust staking system.
+        Built on the Ethereum blockchain, $CRD aims to revolutionize decentralized finance by combining transparency, innovation, and real-world use cases.
+      </p>
+    </section>
+
+    <section class="details">
+      <h2>Tokenomics</h2>
+      <ul>
+        <li><strong>Total Supply:</strong> 1,000,000,000 $CRD</li>
+        <li><strong>Staking Rewards:</strong> 180% Annual APY</li>
+        <li><strong>Network:</strong> Ethereum (ERC-20)</li>
+        <li><strong>Contract Address:</strong> <code>0x9604C32494dfD8955B6A267A5D08Aee7fcE4665f</code></li>
+      </ul>
+    </section>
+
+    <section class="resources">
+      <h2>Whitepaper</h2>
+      <p><a href="CordellaToken_Whitepaper_IT.txt" download>📄 Whitepaper Italiano</a></p>
+      <p><a href="CordellaToken_Whitepaper_EN.pdf" download>📄 Whitepaper English</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Cordella Token. All rights reserved.</p>
+  </footer>
 </body>
 </html>
